@@ -1,177 +1,92 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <!--meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" /-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>TJCTF</title>
-
-    <link rel="stylesheet" type="text/css" href="/fonts/laconic/stylesheet.css" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oxygen+Mono|Open+Sans:400,700" />
-    <link rel="stylesheet" type="text/css" href="/css/main.css" />
-
-    
-</head>
-
-<body>
-    <div class="hero">
-    <div class="background"></div>
-    <div class="crt"></div>
-    <img src="img/logo.svg" class="logo">
-    <img src="img/giantLogo.svg" class="giant-logo">
-    <h1>TJCTF</h1>
-    <div class="info">
-        <div class="dates">April 25-28, 2015</div>
-        <div class="description">
-            Put your hacking skills to the test in this online cybersecurity competition. Win prizes while developing your computer science skills!
-        </div>
-    </div>
-    <nav>
-        <ul class="nav-links">
-    
-        
-        
-        <li class=" "><a href="https://webchat.freenode.net/?channels=tjctf">Chat</a></li>
-    
-        
-        
-        <li class=" "><a href="/about.html">About</a></li>
-    
-        
-        
-        <li class=" "><a href="/rules.html">Rules</a></li>
-    
-        
-        
-        <li class=" "><a href="/prepare.html">Learn</a></li>
-    
-        
-        
-        <li class=" "><a href=""></a></li>
-    
-</ul>
-
-    </nav>
-</div>
-<div class="main-content index">
-    <div class="questions">
-       <div>
-            <h2>What is TJCTF?</h2>
-            TJCTF is a cybersecurity competition designed for high school students. Challenges will span various difficulty levels, so there will be problems for students who are new to computer science as well as those who are computer security experts.
-            <br>
-            <a href="/about.html">More Info &rarr;</a>
-        </div>
-        <div>
-            <h2>How do I register?</h2>
-            TJCTF is open to all United States high school students. Students will compete on teams of up to five members, and will have just over a week to earn as many points as possible. Register using the form below and invite your friends to compete!
-            <br>
-            Registration is closed.
-        </div>
-        <div>
-            <h2>How does TJCTF work?</h2>
-            TJCTF is simple. Your team is given 4 days to solve as many of the ~30 provided challenges as possible. The object of each challenge is to find a short string called the "flag" by solving a computer security puzzle. You'll know when you've found it. Each flag you find earns you points and the teams with the most points win.
-            <br>
-            <a href="/rules.html">Official Rules &rarr;</a>
-        </div>
-        <div>
-            <h2>How do I prepare?</h2>
-            TJCTF has challenges for computer science students with all levels of experience, so preparation shouldn't be necessary, but if you'd like to brush up on computer security to give your team a competitive edge, we've compiled helpful materials for review available at the link below.
-            <br>
-            <a href="/prepare.html">Preparation Materials &rarr;</a>
-        </div>
-    </div>
-
-    <h1>Problem Types</h1>
-    <div class="problem-types">
-        <div>
-            <!-- lock -->
-            <h3>Cryptography</h3>
-            Erirefr naq qrpbqr pvcuref naq pbqrf
-        </div>
-        <div>
-            <h3>Reverse Engineering</h3>
-            <!-- wrench -->
-            AAAAAAAA<br>
-            AAAAAAAB<br>
-            AAAAAAAC<br>
-        </div>
-        <div>
-            <h3>Web &amp; Networking</h3>
-            <!-- globe -->
-            http://tjctf.org?<br>getfile=/etc/shadow&amp;<br>reason=find+web+vulns
-        </div>
-        <div>
-            <h3>Miscellaneous</h3>
-            <!-- code -->
-            Wait, is there a tarball in my image?
-        </div>
-    </div>
-
-    <h1>Prizes</h1>
-    <div class="prizes">
-        <p style="text-align:center;">Thanks to our sponsor <a href="http://invincea.com/">Invincea</a>, we're happy to offer the following prizes to eligible, non-TJ affiliated teams (TJ prizes will be announced by CSC at a later time):</p>
-        <div>
-            <h3>First Place</h3>
-            Raspberry Pi 2 with Ultimate Kit for each team member
-            <img style="width:100%" src="/img/prize_1st.jpg"/>
-        </div>
-        <div>
-            <h3>Second Place</h3>
-            Raspberry Pi 2 with Starter Kit for each team member
-            <img style="width:100%" src="/img/prize_2nd.jpg"/>
-        </div>
-        <div>
-            <h3>Third Place</h3>
-            Raspberry Pi 2 for each team member
-            <img style="width:100%" src="/img/prize_3rd.jpg"/>
-        </div>
-        <div>
-            <h3>Top 10 Teams</h3>
-            TJCTF t-shirt for each team member
-        </div>
-    </div>
-
-    <h1>Sponsors</h1>
-    <div class="sponsors">
-        <img class="sponsor" style="width:75%" src="/img/invincea_logo.png"/>
-        <div class="sponsor" style="width:50%">
-            <img style="width:75%" src="/img/microsoft_logo.svg"/>
-            <img style="width:20%; margin-left:4%" src="/img/hscs.png"/>
-        </div>
-    </div>
-</div>
-
-    <script src="/js/jquery.js"></script>
-<!--<script src="/js/base.js"></script>-->
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="/js/vendor/notify.min.js"></script>
-<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.8.1/semantic.min.js"></script> -->
-
-<!--    <script src="/js/registration.js"></script>-->
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-59195186-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-<!--<script type="text/javascript">
-window.tjctf.statusChecks = [
-       
-]
-</script>-->
-
-    <footer>
-    <div class="footer-content">
-        <span class="copy">&copy; 2015 <a href="https://activities.tjhsst.edu/csc/">TJCSC</a></span>
-    </div>
-</footer>
-</body>
+<!doctype html>
+<html>
+	<head>
+		<title>TJCTF</title>
+		<meta charset="utf/8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<head>
+				<h1>LOGO IMAGE</h1>
+				<p class="date">April 25-28, 2015</p>
+				
+				<p>Put your hacking skills to the test in this online cybersecurity competition. Win prizes while developing your computer science skills!</p>
+			</head>
+			
+			<div class="row">
+				<div class="col-md-3">
+					<h3>What is TJCTF?</h3>
+					<p>TJCTF is a cybersecurity competition designed for high school students. Challenges will span various difficulty levels, so there will be problems for students who are new to computer science as well as those who are computer security experts. </p>
+				</div>
+				
+				<div class="col-md-3">
+					<h3>How do I register?</h3>
+					<p>TJCTF is open to all United States high school students. Students will compete on teams of up to five members, and will have just over a week to earn as many points as possible. Register using the form below and invite your friends to compete!</p>
+					<p>Registration is closed.</p>
+				</div>
+				
+				<div class="col-md-3">
+					<h3>How does TJCTF work?</h3>
+					<p>TJCTF is simple. Your team is given 4 days to solve as many of the ~30 provided challenges as possible. The object of each challenge is to find a short string called the "flag" by solving a computer security puzzle. You'll know when you've found it. Each flag you find earns you points and the teams with the most points win.</p>
+				</div>
+				
+				<div class="col-md-3">
+					<h3>How do I prepare?</h3>
+					<p>TJCTF has challenges for computer science students with all levels of experience, so preparation shouldn't be necessary, but if you'd like to brush up on computer security to give your team a competitive edge, we've compiled helpful materials for review available at the link below.</p>
+				</div>
+			</div>
+			
+			<h2>Problem Types</h2>
+			
+			<div class="row">
+				<div class="col-md-3">
+					<h3>Cryptography</h3>
+					<p>Erirefr naq qrpbqr pvcuref naq pbqrf</p>
+				</div>
+				
+				<div class="col-md-3">
+					<h3>Reverse Engineering</h3>
+					<p>AAAAAAAA</br> AAAAAAAB</br> AAAAAAAC</p>
+				</div>
+				
+				<div class="col-md-3">
+					<h3>Web & Networking</h3>
+					<p>http://tjctf.org?getfile=/etc/shadow&reason=find+web+vulns</p>
+				</div>
+				
+				<div class="col-md-3">
+					<h3>Miscellaneous</h3>
+					<p>Wait, is there a tarball in my image?</p>
+				</div>
+			</div>
+			
+			<h2>Prizes</h2>
+			<p>Thanks to our sponsor Invincea, we're happy to offer the following prizes to eligible, non-TJ affiliated teams (TJ prizes will be announced by CSC at a later time):</p>
+			
+			<div class="row">
+				<div class="col-md-3">
+					<h3>First Place</h3>
+					<p>Raspberry Pi 2 with Ultimate Kit for each team member</p>
+				</div>
+				
+				<div class="col-md-3">
+					<h3>Second Place</h3>
+					<p>Raspberry Pi 2 with Starter Kit for each team member</p>
+				</div>
+				
+				<div class="col-md-3">
+					<h3>Third Place</h3>
+					<p>Raspberry Pi 2 for each team member</p>
+				</div>
+				
+				<div class="col-md-3">
+					<h3>Top 10 Teams</h3>
+					<p>TJCTF t-shirt for each team member</p>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
